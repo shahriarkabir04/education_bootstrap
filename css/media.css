@@ -1,0 +1,473 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    /*    global start*/
+    .common-heading {}
+    .common-heading .common-h1 {
+        font-size: 26px;
+    }
+    .common-heading .common-hr {
+        width: 200px;
+    }
+    /*    global end*/
+    #kid1,
+    #kid2,
+    #courses,
+    #memorable,
+    #teachers,
+    #ourWork,
+    #timeline,
+    #footerTop {
+        padding: 30px 0;
+    }
+    .custom-navar-brand {
+        width: 160px;
+    }
+    #banner {
+        background-color: #fff;
+        background-image: none;
+    }
+    .custom-kid-h1 {
+        font-size: 23px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        color: #1EC0FF;
+    }
+    #kid1 .kid-img {
+        margin-top: 30px;
+    }
+    #courses .common-heading::after {
+        display: none;
+    }
+    #courses .single::before {
+        display: none;
+    }
+    #courses .single {
+        margin-bottom: 20px;
+    }
+    #teachers .teacher-img img {
+        display: block;
+        width: 100%;
+    }
+    .discover-btn,
+    .view-more-btn {
+        width: 60%;
+    }
+    .giraffe,
+    .instagram,
+    .contact,
+    .newsletter {
+        margin-bottom: 25px;
+    }
+    #courses h3 {
+        font-size: 25px;
+    }
+    #footerTop .common-heading {
+        display: none;
+    }
+    #ourWork .single {
+        margin-bottom: 20px;
+    }
+    #ourWork .single .border-img {
+        top: 31px;
+        width: 100px;
+    }
+    #ourWork .single h1 {
+        font-size: 35px;
+    }
+    #ourWork .single p {
+        font-size: 18px;
+    }
+    #timeline .timeline-content {
+        padding: 0px;
+    }
+    #timeline .date  {
+        width: 60px;
+        height: 60px;
+    }
+    #timeline .date h3 {
+        font-size: 30px;
+    }
+    #timeline .date p {
+        font-size: 13px;
+    }
+    #timeline .single-img {
+        margin-bottom: 30px;
+    }
+    #teachers .teacher-img {
+        margin-bottom: 20px;
+    }
+    #footerTop {
+        background-color: #fff;
+        background-image: none;
+    }
+    #timeline .timeline {
+        margin-bottom: 30px;
+    }
+    #timeline .timeline-content h4 {
+        font-size: 23px;
+    }
+    .custom-dropdown-menu {
+        width: 300px;
+        left: 0;
+        padding: 15px;
+    }
+
+    .custom-dropdown-menu h2 {
+        margin-bottom: 40px;
+    }
+
+    .custom-dropdown-menu input {
+        margin-bottom: 10px;
+    }
+
+    .custom-dropdown-menu-search {
+        width: 300px;
+        left: 0;
+        padding: 15px;
+    }
+
+    .custom-dropdown-menu-search input {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #kid1,
+    #kid2,
+    #courses,
+    #memorable,
+    #teachers,
+    #ourWork,
+    #timeline,
+    #footerTop {
+        padding: 40px 0;
+    }
+    .custom-navar-brand {
+        width: 180px;
+    }
+    .custom-kid-h1 {
+        font-size: 28px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        color: #1EC0FF;
+    }
+    #kid1 .kid-img {
+        margin-top: 30px;
+    }
+    #courses .single {
+        margin-bottom: 30px;
+    }
+    #courses .common-hr {
+        width: 51%
+    }
+    #courses .common-heading::after {
+        display: none;
+    }
+    #courses .single::before {
+        display: none;
+    }
+    #banner .custom-kid-h1 {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    #timeline .timeline-content {
+        padding: 20px 0;
+    }
+    #footerTop .common-heading {
+        display: none;
+    }
+    #footerTop {
+        background: #fff;
+    }
+    .giraffe,
+    .instagram,
+    .contact,
+    .newsletter {
+        margin-bottom: 30px;
+    }
+    .copyright {
+        text-align: center;
+    }
+    .custom-dropdown-menu {
+        width: 300px;
+        left: 0;
+        padding: 15px;
+    }
+
+    .custom-dropdown-menu h2 {
+        margin-bottom: 40px;
+    }
+
+    .custom-dropdown-menu input {
+        margin-bottom: 10px;
+    }
+
+    .custom-dropdown-menu-search {
+        width: 300px;
+        left: 0;
+        padding: 15px;
+    }
+
+    .custom-dropdown-menu-search input {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #kid1,
+    #kid2,
+    #courses,
+    #memorable,
+    #teachers,
+    #ourWork,
+    #timeline,
+    #footerTop {
+        padding: 50px 0;
+    }
+    .discover-btn img,
+    .view-more-btn img {
+        width: 80%;
+    }
+    #banner {
+        background-position: center center;
+    }
+    #banner h1 {
+        margin-top: 140px;
+        margin-bottom: 140px;
+    }
+    .common-heading .common-h1 {
+        font-size: 26px;
+        margin-bottom: 15px;
+    }
+    .custom-kid-h1 {
+        margin-top: 170px;
+        margin-bottom: 170px;
+        color: #1EC0FF;
+    }
+    #kid1 .kid-img {
+        padding: 40px 0;
+    }
+    #courses .common-hr {
+        width: 51%
+    }
+    #courses .single {
+        margin-bottom: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #courses .custom-btn {
+        margin: 20px 0;
+    }
+    #teachers .teacher-img {
+        margin-top: 50px;
+    }
+    #ourWork .single h1 {
+        font-size: 35px;
+    }
+    #ourWork .border-img {
+        width: 90px;
+        top: 30px;
+        left: 28px;
+    }
+    #ourWork .single p {
+        font-size: 16px;
+    }
+    #kid2 .kid-single-img,
+    #kid2 .back-circke-1,
+    #kid2 .back-circle-2,
+    #kid2 .back-circle-content {
+        width: 80px;
+        height: 80px;
+    }
+    #kid2 .kid-single-img {
+        width: 80px;
+        height: 80px;
+    }
+    #kid2 .kid-single-img .back-circle-1,
+    #kid2 .kid-single-img .back-circle-2,
+    #kid2 .kid-single-img .back-circle-content {
+        width: 80px;
+        height: 80px;
+    }
+    #kid2 .single p {
+        font-size: 16px;
+    }
+    #timeline h4 {
+        font-size: 21px;
+    }
+    #timeline .date  {
+        width: 70px;
+        height: 70px;
+    }
+    #timeline .date h3 {
+        font-size: 40px;
+    }
+    #timeline .date p {
+        font-size: 13px;
+    }
+    #timeline .single-header p {
+        font-size: 10px;
+    }
+    #timeline .single-img {
+        margin-top: 60px;
+    }
+    #footerTop {
+        padding-top: 90px;
+        background-position: 0 0;
+        margin-top: -160px;
+    }
+    .giraffe,
+    .instagram,
+    .contact,
+    .newsletter {
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    #footerTop h2 {
+        font-size: 20px;
+    }
+    #footerTop .custom-padding {
+        padding: 0 5px;
+    }
+    footer .footer-link {
+        text-align: center;
+    }
+    footer .footer-link li a {
+        padding: 0 14px;
+    }
+    footer .copyright {
+        text-align: center;
+    }
+    .custom-dropdown-menu {
+        width: 300px;
+        left: 0;
+        padding: 15px;
+    }
+
+    .custom-dropdown-menu h2 {
+        margin-bottom: 40px;
+    }
+
+    .custom-dropdown-menu input {
+        margin-bottom: 10px;
+    }
+
+    .custom-dropdown-menu-search {
+        width: 300px;
+        left: 0;
+        padding: 15px;
+    }
+
+    .custom-dropdown-menu-search input {
+        margin-right: 20px;
+        margin-bottom: 0;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #kid1,
+    #kid2,
+    #courses,
+    #memorable,
+    #teachers,
+    #ourWork,
+    #timeline,
+    #footerTop {
+        padding: 70px 0;
+    }
+    .discover-btn img,
+    .view-more-btn img {
+        width: 90%;
+    }
+    .common-heading .common-h1 {
+        font-size: 28px;
+    }
+    .custom-kid-h1 {
+        margin-top: 200px;
+        margin-bottom: 200px;
+        color: #1EC0FF;
+    }
+    #kid1 .kid-img {
+        margin: 20px 0;
+    }
+    #ourWork .border-img {
+        width: 120px;
+        top: 43px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+    #ourWork .single h1 {
+        font-size: 46px;
+    }
+    #ourWork .single p {
+        font-size: 23px;
+    }
+    #courses .single {
+        border-radius: 20px;
+    }
+    #courses .single-header {
+        border-radius: 20px 20px 0 0
+    }
+    #courses h3 {
+        font-size: 22px;
+    }
+    #timeline {
+        padding-bottom: 0;
+    }
+    #footerTop {
+        background-position: 0 0;
+        margin-top: -120px;
+    }
+    #footerTop .common-heading {
+        
+    }
+    #footerTop h4 {
+        font-size: 18px;
+    }
+    #footerTop h2 {
+        font-size: 20px;
+    }
+    #footerTop .custom-padding {
+        padding: 0 5px;
+    }
+    footer .footer-link li a {
+        display: block;
+        padding-right: 10px !important;
+        padding-left: 0 !important;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 1200px) and (max-width: 1699.98px) {
+    .custom-kid-h1 {
+        margin-top: 320px;
+        margin-bottom: 320px;
+        color: #1EC0FF;
+    }
+}
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 1700) and (max-width: 1919.98px) {
+    .custom-kid-h1 {
+        font-size: 40px;
+        margin-top: 320px;
+        margin-bottom: 320px;
+        color: #1EC0FF;
+    }
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1920px) {
+    .custom-kid-h1 {
+        font-weight: 700;
+        font-size: 48px;
+        margin-top: 440px;
+        margin-bottom: 440px;
+        color: #1EC0FF;
+    }
+}
